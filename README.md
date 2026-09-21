@@ -13,16 +13,16 @@ The main questions driving this project are as follows:
 ## Key Metrics
 With all the data available, it is easy to fall into the trap of treating every stat as relevant — which is not the case. For that reason, we made the deliberate decision to include only the data that helps answer our core questions. To complement the raw NBA stats, we also constructed several composite metrics to help evaluate teams and players:
 
-**Offensive Score** \\
+**Offensive Score**  
 League-relative 0–100 index based on Offensive Rating, TS%, 3P%, and turnover rate.
 
-**Defensive Score**\\
+**Defensive Score**  
 League-relative 0–100 index based on Defensive Rating and Defensive Rebound%.
 
-**Contribution Index**\\
+**Contribution Index**  
 Composite indicator combining selected player performance metrics.
 
-**Value Gap**\\
+**Value Gap**  
 Contribution Percentile − Salary Percentile
 *Used to identify potential value opportunities and inefficient contracts.*
 
@@ -41,27 +41,6 @@ Data covers the 2025–26 regular season. Salary information was collected separ
 ## Project structure
 
 The project is organized to separate raw data, data preparation, analysis, database transformations, and the final dashboard. This makes the workflow easier to understand, reproduce, and maintain, while keeping the different stages of the project clearly separated.
-
-nba-frontoffice-project/
-│
-├── README.md
-├── data_inventory.md
-├── requirements.txt
-│
-├── data_raw/
-│   └── ...
-│
-├── data_cleaned/
-│   └── ...
-│
-├── python_notebooks/
-│   └── ...
-│
-├── sql_bigquery_scripts/
-│   └── ...
-│
-└── dashboard/
-    └── ...
 
 
 - **README.md** — project overview, business questions, dashboard, key metrics, tools, and limitations.
