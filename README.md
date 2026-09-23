@@ -9,7 +9,25 @@ The main questions driving this project are as follows:
 - What is the current Team Profile (Offense/Defense/Both) ?
 - How did the players contribute to the team's success and deliver value relative to their contracts? 
 
+## Data 
+We retrieved performance data directly using the [nba_api](https://github.com/swar/nba_api/blob/master/README.md) Python library and salary data via ESPN.
+
 ## Dashboard
+![NBA Front Office Dashboard](dashboard/menu_page.png)
+
+The Power BI dashboard is structured into three complementary pages:
+
+### 1.Executive Summary
+League-wide overview of team performance and financial context.
+
+### 2.Team Profile
+Detailed analysis of a selected team's offensive and defensive profile.
+
+### 3.Roster & Player Value
+Analysis of player contribution and salary alignment.
+
+
+
 ## Key Metrics
 With all the data available, it is easy to fall into the trap of treating every stat as relevant — which is not the case. For that reason, we made the deliberate decision to include only the data that helps answer our core questions. To complement the raw NBA stats, we also constructed several composite metrics to help evaluate teams and players:
 
@@ -26,7 +44,7 @@ Composite indicator combining selected player performance metrics.
 Contribution Percentile − Salary Percentile
 *Used to identify potential value opportunities and inefficient contracts.*
 
-Details about the data used can be found in the data inventory file.
+Details about the data used can be found in the data_inventory.md file.
 
 ## Data tools
 |Tool|Purpose|
