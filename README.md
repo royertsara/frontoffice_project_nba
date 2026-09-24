@@ -26,7 +26,7 @@ Detailed analysis of a selected team's offensive and defensive profile.
 ### 3.Roster & Player Value
 Analysis of player contribution and salary alignment.
 
-
+[Click here to access the interactive dashboard](https://app.powerbi.com/reportEmbed?reportId=50b4a8f4-847e-4579-8583-50e5e7fb7b61&autoAuth=true&ctid=3e08a669-4292-42cb-aaff-083b43a0d551)
 
 ## Key Metrics
 With all the data available, it is easy to fall into the trap of treating every stat as relevant — which is not the case. For that reason, we made the deliberate decision to include only the data that helps answer our core questions. To complement the raw NBA stats, we also constructed several composite metrics to help evaluate teams and players:
@@ -41,7 +41,8 @@ League-relative 0–100 index based on Defensive Rating and Defensive Rebound%.
 Composite indicator combining selected player performance metrics.
 
 **Value Gap**  
-Contribution Percentile − Salary Percentile
+Contribution Percentile − Salary Percentile  
+
 *Used to identify potential value opportunities and inefficient contracts.*
 
 Details about the data used can be found in the data_inventory.md file.
@@ -54,7 +55,7 @@ Details about the data used can be found in the data_inventory.md file.
 |Power BI |Dashboard and Data visualisation|
 
 ## Limitations
-Data covers the 2025–26 regular season. Salary information was collected separately (on ESPN.com) and may be incomplete for certain players/contracts, so payroll figures are treated as estimates. Custom performance and value metrics are analytical indicators developed for this project and should not be interpreted as official NBA measures.
+Data covers the 2025–26 regular season. Salary information was collected separately from ESPN.com and may be incomplete for certain players or contracts, so payroll figures should be treated as estimates. Custom performance and value metrics are analytical indicators developed for this project and should be interpreted with caution, given their subjective nature.
 
 ## Project structure
 
