@@ -1,0 +1,6 @@
+pandas
+numpy
+nba_api
+requests
+BeautifulSoup4
+lxml
